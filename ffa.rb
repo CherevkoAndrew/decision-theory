@@ -30,6 +30,4 @@ def nfa(arr, container_size)
 	containers
 end
 
-p nfa arr, 100
-
-
+(nfa arr, 100).each {|c| p c}
